@@ -1,3 +1,8 @@
+require "nokogiri"
+require "pry"
+
+
+
 html = File.read('fixtureskickstarter.html')
 
 kickstarter = 
@@ -8,3 +13,4 @@ open fixtures/kickstarter.html
 def create_project_hash
   # write your code here
 end
+binding.pry
